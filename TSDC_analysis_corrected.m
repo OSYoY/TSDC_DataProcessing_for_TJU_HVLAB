@@ -175,7 +175,7 @@ N_density=trapz(T_exp,I_exp)*(1/beta)*(6.24e18)*(1/3.14e-8);
 
 %Gaussian基准函数
 
-x=-0.2:dEt:0.2;
+x=-0.1:dEt:0.1;
 sigma=0.02;
 Gauss_base=1/(sqrt(2*pi)*sigma)*exp(-(x).^2/(2*sigma^2));
 
